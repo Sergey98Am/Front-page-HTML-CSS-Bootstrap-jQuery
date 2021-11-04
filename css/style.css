@@ -178,3 +178,47 @@ header {
     font-size: 19px;
     font-weight: 600;
 }
+
+.second-section .col-5 {
+    padding-left: 65px;
+}
+
+.testimonial-title {
+    font-size: 32px;
+    font-weight: 500;
+    margin-bottom: 13px;
+}
+
+.testimonial-card {
+    display: flex;
+    padding-bottom: 6px;
+    margin-bottom: 27px;
+    border-bottom: 1px solid black;
+}
+
+.testimonial-card img {
+    width: 96px;
+    height: 143px;
+    border: 1px solid grey;
+    object-fit: cover;
+}
+
+.testimonial-card .text {
+    padding-bottom: 7px;
+    margin-left: 11px;
+}
+
+.testimonial-card .text p {
+    line-height: 24px;
+    font-size: 14.7px;
+    margin: 0;
+    font-weight: 600;
+}
+
+.testimonial-card .text p span {
+    display: block;
+}
+
+.testimonial-card .text p span:last-child {
+    margin-top: -7px;
+}
