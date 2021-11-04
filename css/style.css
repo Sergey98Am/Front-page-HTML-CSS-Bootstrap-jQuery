@@ -59,3 +59,57 @@ header {
     margin: 0;
     letter-spacing: 1px;
 }
+
+.first-section .section-content {
+    /*display: flex;*/
+    /*justify-content: center;*/
+    /*align-items: center;*/
+    background-origin: content-box !important;
+    background: url("/images/first-image.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 98%;
+    padding-top: 55px;
+    padding-bottom: 9px;
+}
+
+.text-content h1 {
+    color: white;
+    margin-top: -21px;
+    margin-bottom: 22px;
+}
+
+.text-content h1 span {
+    display: block;
+}
+
+.text-content h1 span:first-child {
+    font-size: 61px;
+}
+
+.text-content h1 span:nth-child(2) {
+    margin-top: -6px;
+    margin-right: 6px;
+    font-size: 45px;
+}
+
+.text-content p {
+    line-height: 27px;
+    color: white;
+    font-size: 19px;
+    font-weight: 600;
+    padding: 0 59px;
+    margin-bottom: 28px;
+}
+
+.text-content button {
+    border-radius: 5px;
+    width: 222px;
+    height: 55px;
+    border: none;
+    background: red;
+    color: white;
+    font-size: 30px;
+    font-weight: 500;
+}
