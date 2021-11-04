@@ -1,0 +1,61 @@
+body {
+    min-height: calc(100vh + 1px);
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1195px !important;
+    }
+}
+
+header {
+    background: gray;
+}
+
+.collapse {
+    margin-right: 34px;
+}
+
+.navbar-brand {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.nav-link {
+    font-weight: 700;
+    font-size: 20px;
+    /*margin: 0 22.9px;*/
+    padding-left: 30.9px !important;
+    padding-right: 30.9px !important;
+    padding-top: 56px !important;
+    padding-bottom: 10px !important;
+    color: yellow !important;
+}
+
+.logo {
+    border: 1px solid white;
+    margin-top: 10px;
+    margin-bottom: 7px;
+    padding: 5px 30px;
+    /*width: 240px;*/
+    /*height: 78px;*/
+    text-align: center;
+    /*word-break: break-word;*/
+    /*overflow: hidden;*/
+}
+
+.logo a {
+    color: white !important;
+    /*inline-size: 150px;*/
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.home {
+    color: white !important;
+}
+
+.logo h3 {
+    margin: 0;
+    letter-spacing: 1px;
+}
