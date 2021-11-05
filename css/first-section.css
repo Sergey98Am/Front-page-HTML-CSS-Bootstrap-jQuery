@@ -51,3 +51,92 @@
     font-size: 30px;
     font-weight: 500;
 }
+
+@media (max-width: 1199px) {
+    .first-section .text-content h1 span:first-child {
+        font-size: 40px;
+        margin-bottom: 5px;
+    }
+
+    .first-section .text-content h1 span:nth-child(2) {
+        font-size: 30px;
+    }
+
+    .first-section .text-content p {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .first-section .text-content button {
+        font-size: 20px;
+        width: 150px;
+        height: 40px;
+    }
+}
+
+@media (max-width: 991px) {
+    .first-section .text-content h1 {
+        margin-top: 0;
+        margin-bottom: 10px;
+    }
+
+    .first-section .text-content h1 span:first-child {
+        font-size: 30px;
+        margin-top: 40px;
+        margin-bottom: 10px;
+    }
+
+    .first-section .text-content h1 span:nth-child(2) {
+        font-size: 22px;
+        margin-right: 0;
+    }
+
+    .first-section .section-content {
+        padding-top: 0;
+    }
+
+    .first-section .text-content p {
+        padding: 0;
+        margin-bottom: 12px;
+    }
+}
+
+@media (max-width: 768px) {
+    .first-section .text-content h1 span:first-child {
+        font-size: 25px;
+        margin-top: 20px;
+        margin-bottom: 4px;
+    }
+
+    .first-section .text-content h1 span:nth-child(2) {
+        font-size: 19px;
+    }
+
+    .first-section .text-content p {
+        margin-bottom: 10px;
+    }
+
+    .first-section .text-content button {
+        font-size: 15px;
+        width: 130px;
+        height: 30px;
+    }
+
+    @media (max-width: 576px) {
+        .first-section .text-content h1 span:first-child {
+            font-size: 25px;
+            margin-top: 10px;
+            margin-bottom: 4px;
+        }
+
+        .first-section .text-content p {
+            line-height: 19px;
+            font-size: 15px;
+            margin-bottom: 8px;
+        }
+
+        .first-section .text-content button {
+            margin-bottom: 10px;
+        }
+    }
+}

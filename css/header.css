@@ -49,7 +49,7 @@ header {
     letter-spacing: 1px;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1199px) {
     .navbar .nav-link {
         padding: 13px !important;
         font-size: 18px;
