@@ -8,9 +8,9 @@ body {
     }
 }
 
-.section-width {
-    width: 98%;
-}
+/*.section-width {*/
+/*    width: 98%;*/
+/*}*/
 
 header {
     background: gray;
@@ -198,14 +198,14 @@ header {
 
 .testimonial-card img {
     width: 96px;
-    height: 143px;
+    height: 138px;
     border: 1px solid grey;
     object-fit: cover;
 }
 
 .testimonial-card .text {
     padding-bottom: 7px;
-    margin-left: 11px;
+    margin-left: 13px;
 }
 
 .testimonial-card .text p {
@@ -221,4 +221,61 @@ header {
 
 .testimonial-card .text p span:last-child {
     margin-top: -7px;
+}
+
+.contacts {
+    border: 1px solid black;
+    padding: 8px;
+}
+
+.info {
+    border: 1px solid black;
+    padding-left: 48px;
+    padding-top: 10px;
+}
+
+.info .text p {
+    margin: 0;
+}
+
+.info span {
+    line-height: 70px;
+}
+
+.info .icon {
+    margin-right: 15px;
+}
+
+.info .icon span {
+    display: flex;
+}
+
+.info .icon span i {
+    font-size: 55px;
+}
+
+.each-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 21px;
+}
+
+.phone-number .text p {
+    font-size: 38px;
+    font-weight: 600;
+}
+
+.email .text p {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.address {
+    margin-bottom: 10px;
+}
+
+.address .text p {
+    line-height: 23px;
+    font-weight: 700;
+    font-size: 17px;
 }
