@@ -1,0 +1,70 @@
+.second-section {
+    padding: 30px 0 37px 0;
+}
+
+.second-section .col-5 {
+    padding-left: 65px;
+}
+
+.second-section .welcome-text {
+    margin-bottom: 35px;
+}
+
+.second-section .welcome-text h3 {
+    font-size: 30px;
+}
+
+.second-section .welcome-text p {
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 24px;
+    margin: 0;
+}
+
+.second-section .welcome-card {
+    background: #eaeaea;
+    display: flex;
+    border-radius: 5px;
+    padding: 20px;
+    border: 1px solid darkgray;
+}
+
+.second-section .welcome-card:first-child {
+    margin-bottom: 7px;
+}
+
+.second-section .welcome-card img {
+    width: 282px;
+    height: 176px;
+    object-fit: cover;
+}
+
+.second-section .welcome-card h5 {
+    letter-spacing: 1.3px;
+    margin-bottom: 10px;
+}
+
+.second-section .welcome-card p {
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 25px;
+    margin-bottom: 3px;
+}
+
+.second-section .welcome-card button {
+    background: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 19px;
+    font-weight: 600;
+}
+
+.second-section .first-card {
+    margin-bottom: 7px !important;
+}
+
+.second-section .first-card .text {
+    margin-left: 15px;
+}
