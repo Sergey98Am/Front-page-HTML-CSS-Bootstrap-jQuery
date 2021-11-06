@@ -43,13 +43,12 @@
 
 .first-section .text-content button {
     border-radius: 5px;
-    width: 222px;
-    height: 55px;
     border: none;
     background: red;
     color: white;
     font-size: 30px;
     font-weight: 500;
+    padding: 6px 10px;
 }
 
 @media (max-width: 1199px) {
@@ -69,8 +68,6 @@
 
     .first-section .text-content button {
         font-size: 20px;
-        width: 150px;
-        height: 40px;
     }
 }
 
@@ -118,25 +115,23 @@
 
     .first-section .text-content button {
         font-size: 15px;
-        width: 130px;
-        height: 30px;
+    }
+}
+
+@media (max-width: 576px) {
+    .first-section .text-content h1 span:first-child {
+        font-size: 25px;
+        margin-top: 10px;
+        margin-bottom: 4px;
     }
 
-    @media (max-width: 576px) {
-        .first-section .text-content h1 span:first-child {
-            font-size: 25px;
-            margin-top: 10px;
-            margin-bottom: 4px;
-        }
+    .first-section .text-content p {
+        line-height: 19px;
+        font-size: 15px;
+        margin-bottom: 8px;
+    }
 
-        .first-section .text-content p {
-            line-height: 19px;
-            font-size: 15px;
-            margin-bottom: 8px;
-        }
-
-        .first-section .text-content button {
-            margin-bottom: 10px;
-        }
+    .first-section .text-content button {
+        margin-bottom: 10px;
     }
 }
