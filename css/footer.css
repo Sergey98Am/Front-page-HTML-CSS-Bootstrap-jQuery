@@ -5,14 +5,18 @@ footer {
 
 footer ul {
     display: flex;
+    justify-content: center;
     list-style: none;
     margin: 0;
+    padding: 0;
 }
 
 footer ul li a {
     text-decoration: none;
     color: white;
-    padding-right: 41px;
+    padding: 0 20px;
+    font-size: 14px;
+    font-weight: 500;
 }
 
 footer ul li a:hover {
@@ -20,7 +24,18 @@ footer ul li a:hover {
     color: white;
 }
 
-footer ul li a {
-    font-size: 14px;
-    font-weight: 500;
+@media (max-width: 768px) {
+    footer ul li a {
+        padding: 0 10px;
+    }
+}
+
+@media (max-width: 576px) {
+    footer ul {
+        flex-direction: column;
+    }
+
+    footer ul li:not(:last-child){
+        padding-bottom: 10px;
+    }
 }
