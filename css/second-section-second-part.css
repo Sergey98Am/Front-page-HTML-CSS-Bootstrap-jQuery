@@ -49,7 +49,7 @@
     background: #1c2f36;
     border: 1px solid grey;
     padding-left: 48px;
-    padding-top: 10px;
+    padding-top: 22px;
 }
 
 .second-section .info .text p {
@@ -112,4 +112,60 @@
     line-height: 23px;
     font-weight: 700;
     font-size: 17px;
+}
+
+@media (max-width: 1199px) {
+    .second-section .testimonial-card .text p {
+        line-height: 21px;
+    }
+
+    .second-section .info {
+        padding-bottom: 33px;
+    }
+}
+
+@media (max-width: 991px) {
+    .second-section .info {
+        padding: 10px !important;
+    }
+
+    .second-section .testimonial-card .text p {
+        line-height: 17px;
+        font-size: 13px;
+        font-weight: 400;
+    }
+
+    .second-section .info .icon span i {
+        font-size: 30px;
+    }
+
+    .second-section .each-info {
+        margin-bottom: 19px;
+    }
+
+    .second-section .each-info .text p {
+        font-size: 18px;
+    }
+
+    .second-section .address {
+        margin-bottom: 0;
+    }
+
+    .second-section .address .text p {
+        font-size: 15px !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .second-section .testimonials {
+        margin-top: 20px;
+    }
+
+    .second-section .testimonial-card .text p {
+        line-height: 20px;
+    }
+
+    .second-section .info {
+        padding: 30px !important;
+    }
 }
