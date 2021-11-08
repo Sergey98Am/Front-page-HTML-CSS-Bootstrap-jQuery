@@ -4,7 +4,7 @@
 
 .first-section .section-content {
     background-origin: content-box !important;
-    background: url("/images/first-image.jpg");
+    background: url("../images/first-image.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
