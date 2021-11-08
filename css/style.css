@@ -1,0 +1,11 @@
+@import "header.css";
+@import "first-section.css";
+@import "second-section-first-part.css";
+@import "second-section-second-part.css";
+@import "footer.css";
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1195px !important;
+    }
+}

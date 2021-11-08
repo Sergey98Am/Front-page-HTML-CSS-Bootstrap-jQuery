@@ -1,0 +1,171 @@
+.second-section .testimonial-title {
+    font-size: 32px;
+    font-weight: 500;
+    margin-bottom: 13px;
+}
+
+.second-section .testimonial-card {
+    display: flex;
+    padding-bottom: 6px;
+    margin-bottom: 27px;
+    box-shadow: 0 15px 10px -15px grey;
+}
+
+.second-section .testimonial-card img {
+    width: 96px;
+    height: 138px;
+    border: 1px solid grey;
+    object-fit: cover;
+}
+
+.second-section .testimonial-card .text {
+    padding-bottom: 7px;
+    margin-left: 13px;
+}
+
+.second-section .testimonial-card .text p {
+    line-height: 24px;
+    font-size: 14.7px;
+    margin: 0;
+    font-weight: 600;
+}
+
+.second-section .testimonial-card .text p span {
+    display: block;
+}
+
+.second-section .testimonial-card .text p span:last-child {
+    margin-top: -7px;
+}
+
+.second-section .contacts {
+    background: darkgray;
+    border: 1px solid grey;
+    border-radius: 3px;
+    padding: 8px;
+}
+
+.second-section .info {
+    background: #1c2f36;
+    border: 1px solid grey;
+    padding-left: 48px;
+    padding-top: 22px;
+}
+
+.second-section .info .text p {
+    margin: 0;
+}
+
+.second-section .info span {
+    line-height: 70px;
+}
+
+.second-section .info .icon {
+    margin-right: 15px;
+}
+
+.second-section .info .icon span {
+    display: flex;
+}
+
+.second-section .info .icon span i {
+    font-size: 55px;
+}
+
+.second-section .each-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 21px;
+}
+
+.second-section .each-info .text p {
+    color: white;
+}
+
+.second-section .phone-number .icon span {
+    color: red;
+}
+
+.second-section .phone-number .text p {
+    font-size: 38px;
+    font-weight: 600;
+}
+
+.second-section .email .icon span {
+    color: white;
+}
+
+.second-section .email .text p {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.second-section .address {
+    margin-bottom: 10px;
+}
+
+.second-section .address .icon span {
+    color: dodgerblue;
+}
+
+.second-section .address .text p {
+    line-height: 23px;
+    font-weight: 700;
+    font-size: 17px;
+}
+
+@media (max-width: 1199px) {
+    .second-section .testimonial-card .text p {
+        line-height: 21px;
+    }
+
+    .second-section .info {
+        padding-bottom: 33px;
+    }
+}
+
+@media (max-width: 991px) {
+    .second-section .info {
+        padding: 10px !important;
+    }
+
+    .second-section .testimonial-card .text p {
+        line-height: 17px;
+        font-size: 13px;
+        font-weight: 400;
+    }
+
+    .second-section .info .icon span i {
+        font-size: 30px;
+    }
+
+    .second-section .each-info {
+        margin-bottom: 19px;
+    }
+
+    .second-section .each-info .text p {
+        font-size: 18px;
+    }
+
+    .second-section .address {
+        margin-bottom: 0;
+    }
+
+    .second-section .address .text p {
+        font-size: 15px !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .second-section .testimonials {
+        margin-top: 20px;
+    }
+
+    .second-section .testimonial-card .text p {
+        line-height: 20px;
+    }
+
+    .second-section .info {
+        padding: 30px !important;
+    }
+}
