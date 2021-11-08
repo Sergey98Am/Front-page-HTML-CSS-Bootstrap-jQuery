@@ -21,7 +21,7 @@ footer ul li a {
 
 footer ul li a:hover {
     text-decoration: none;
-    color: white;
+    color: red !important;
 }
 
 @media (max-width: 768px) {
